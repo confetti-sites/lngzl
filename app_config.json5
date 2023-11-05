@@ -1,0 +1,29 @@
+{
+  environments: [
+    {
+      key: 'sandbox',
+      containers: [
+        // Main view service
+        {
+          name: 'confetti-cms/view-php',
+          hosts: [
+            'lngzl.confetti-cms.com',
+          ],
+          paths: [
+            '/',
+          ],
+        },
+        // For all other services
+        {
+          hosts: [
+            'lngzl.confetti-cms.com',
+          ],
+          paths: [
+            '/conf_api',
+          ],
+          user_service_in_uri: true,
+        },
+      ],
+    },
+  ],
+}
