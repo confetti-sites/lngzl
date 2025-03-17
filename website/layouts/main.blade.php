@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/website/assets/css/fonts.css"/>
 
     <link rel="manifest" href="/website/assets/site.webmanifest">
-    <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/website/assets/images/favicon.png">
     <!-- Icons from: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
     @stack('style_*')
 </head>

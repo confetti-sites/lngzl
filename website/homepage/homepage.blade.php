@@ -2,7 +2,7 @@
 
 @extends('website.layouts.main')
 
-@section('head_title', 'Homepage')
+@section('head_title', 'LNGZL | Website Ontwerp & Ontwikkeling | Internetbureau')
 
 @section('content')
     @include('website.homepage.hero')
