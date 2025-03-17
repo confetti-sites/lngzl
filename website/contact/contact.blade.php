@@ -48,14 +48,13 @@
 
         </div>
 
-        @if($page->contact_form->get())
-            <div class="w-full mt-32">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8 pb-4">
-                    <h3 class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 text-center">{{ $page->contact_form->getTitle() }}</h3>
-                </div>
-                {!! $page->tally('contact_form')->withPadding()->embed() !!}
+        <div class="mt-16 text-center max-w-md mx-auto">
+            <h3 class="text-2xl font-bold text-gray-900">Interesse?</h3>
+            <p class="mt-2 text-gray-600">Wij weten zeker dat we jouw droomwebsite binnen no-time online kunnen hebben.</p>
+            <div class="mt-6 flex max-w-md gap-x-4">
+                {!! model\homepage\newsletter::query()->first()->form->embed() !!}
             </div>
-        @endif
+        </div>
     </div>
 
 @endsection

@@ -69,13 +69,12 @@
                 </div>
             </div>
 
-            <div class="mt-16 text-center">
+            <div class="mt-16 text-center max-w-md mx-auto">
                 <h3 class="text-2xl font-bold text-gray-900">Interesse?</h3>
                 <p class="mt-2 text-gray-600">Wij weten zeker dat we jouw droomwebsite binnen no-time online kunnen hebben.</p>
-                <form class="mt-6">
-                    <input type="text" placeholder="Vul je telefoonnummer in" class="px-4 py-2 border border-gray-300 rounded-lg">
-                    <button type="submit" class="ml-2 px-4 py-2 bg-indigo-600 text-white rounded-lg">Bel mij terug</button>
-                </form>
+                <div class="mt-6 flex max-w-md gap-x-4">
+                {!! model\homepage\newsletter::query()->first()->form->embed() !!}
+                </div>
             </div>
         </div>
     </div>
