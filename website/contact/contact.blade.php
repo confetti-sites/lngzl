@@ -45,7 +45,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="mt-16 text-center max-w-md mx-auto">
