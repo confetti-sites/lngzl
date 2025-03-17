@@ -2,6 +2,21 @@
 
 @config '../../tailwind.config.js';
 
+:root {
+  font-family: 'Montserrat', sans-serif;
+  --color-indigo-50: #edf3ff;
+  --color-indigo-100: #dee9ff;
+  --color-indigo-200: #c4d6ff;
+  --color-indigo-300: #a0baff;
+  --color-indigo-400: #6e89ff;
+  --color-indigo-500: #5b6df9;
+  --color-indigo-600: #3d44ee;
+  --color-indigo-700: #2f31d3;
+  --color-indigo-800: #292daa;
+  --color-indigo-900: #292f86;
+  --color-indigo-950: #18194e;
+}
+
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
   so we've added these compatibility styles to make sure everything still
@@ -34,7 +49,7 @@
 
 @layer utilities {
   :root {
-    font-family: 'pluto';
+    font-family: 'Montserrat', sans-serif;
   }
 
   .container {

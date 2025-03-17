@@ -1,11 +1,10 @@
-<header class="lg:container lg:mx-auto z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100 w-full">
+<header class="lg:container lg:mx-auto z-50/80 backdrop-blur-sm border-b border-gray-100 w-full">
     <nav class="relative">
         <div class="flex items-center justify-between px-4 py-2">
             <!-- Logo Container -->
             <div id="logo" class="flex items-center p-2">
                 <a href="/" aria-label="logo" class="flex items-center space-x-4">
-                    <img src="/website/assets/logo.png" class="h-10" alt="">
-                    <span class="text-xl" id="brand-title">Your Company</span>
+                    <img src="/website/assets/images/lngzl.svg" class="h-10" alt="">
                 </a>
             </div>
             <div></div>
@@ -17,10 +16,10 @@
                     </svg>
                 </button>
                 <!-- Navigation Links -->
-                <div class="js-menu hidden flex-col space-y-2 px-4 py-2 bg-white md:flex md:flex-row md:space-y-0 md:space-x-4 md:border-none md:py-0">
-                    <a href="/" class="block md:hidden transition hover:text-primary px-4 py-2 md:py-2">Home</a>
-                    <a href="/pricing" class="block relative transition hover:text-primary px-4 py-2 md:py-2">Pricing</a>
-                    <a href="/blogs" class="block relative transition hover:text-primary px-4 py-2 md:py-2">Blog</a>
+                <div class="js-menu hidden flex-col space-y-2 px-4 py-2 md:flex md:flex-row md:space-y-0 md:space-x-4 md:border-none md:py-0">
+                    <a href="/" class="block md:hidden transition hover:text-primary px-4 py-2 md:py-2">Homepage</a>
+                    <a href="/diensten" class="block relative transition hover:text-primary px-4 py-2 md:py-2">Diensten</a>
+                    <a href="/projecten" class="block relative transition hover:text-primary px-4 py-2 md:py-2">Projecten</a>
                     <a href="/contact" class="block relative transition hover:text-primary px-4 py-2 md:py-2">Contact</a>
                 </div>
             </div>

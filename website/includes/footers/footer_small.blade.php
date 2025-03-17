@@ -1,10 +1,10 @@
 @php($footer = extendModel($model))
-<footer class="bg-white shadow-sm dark:bg-gray-800">
+<footer class="shadow-sm dark:bg-gray-800">
     <div class="w-full mx-auto max-w-(--breakpoint-xl) p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center">
           © {{ date('Y') }}
           <a href="/" class="hover:underline">
-              Your Company
+              Lngzl.
           </a>
     </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">

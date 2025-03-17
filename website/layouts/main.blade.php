@@ -11,7 +11,7 @@
     <!-- Icons from: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
     @stack('style_*')
 </head>
-<body class="text-lg overflow-x-hidden">
+<body class="text-lg overflow-x-hidden bg-[rgb(247,246,241)] bg-[url('/website/assets/images/background.png')] bg-center bg-no-repeat">
 {{--@guest()--}}
 {{--    @include('website.under_construction')--}}
 {{--@else()--}}

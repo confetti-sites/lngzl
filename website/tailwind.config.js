@@ -7,7 +7,7 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            'headings': ['pluto'],
+            'headings': ['Montserrat', 'sans-serif'],
             'body': ['sans-serif'],
           },
         extend: {
@@ -18,9 +18,9 @@ module.exports = {
                     dark: "#d69051",
                 },
                 secondary: {
-                    DEFAULT: '#3dc2ff',
-                    dark: "#36abe0",
-                    light: "#50c8ff",
+                    DEFAULT: '#5b6df9',
+                    dark: "#3d44ee",
+                    light: "#a0baff",
                 },
             }
         },

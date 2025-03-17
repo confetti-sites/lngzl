@@ -25,16 +25,14 @@ class Website
     public static function render(): View
     {
         return match (true) {
-            request()->uri() === '/'                     => new View('website.homepage.homepage'),
-            request()->uri() === '/waiting-list'         => new View('website.login'),
-            request()->uri() === '/waiting-callback'     => new View('website.login_callback'),
-            request()->uri() === '/auth/callback'        => new View('website.includes.auth.callback'),
-            request()->uri() === '/pricing'              => new View('website.pricing.pricing'),
-            request()->uri() === '/contact'              => new View('website.contact.contact'),
-            request()->uri() === '/privacy-policy'       => new View('website.privacy-policy.privacy-policy'),
-            request()->uri() === '/blogs'                => new View('website.blog.overview'),
-            str_starts_with(request()->uri(), '/blogs/') => new View('website.blog.detail'),
-            default                                      => new View('website.404'),
+            request()->uri() === '/'                         => new View('website.homepage.homepage'),
+            request()->uri() === '/auth/callback'            => new View('website.includes.auth.callback'),
+            request()->uri() === '/diensten'                 => new View('website.services.services'),
+            request()->uri() === '/contact'                  => new View('website.contact.contact'),
+            request()->uri() === '/privacy-policy'           => new View('website.privacy-policy.privacy-policy'),
+            request()->uri() === '/projecten'                => new View('website.projects.overview'),
+            str_starts_with(request()->uri(), '/projecten/') => new View('website.projects.detail'),
+            default                                          => new View('website.404'),
         };
     }
 }

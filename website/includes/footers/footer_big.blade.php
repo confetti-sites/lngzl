@@ -1,6 +1,6 @@
 @php($footer = extendModel($model)->label('Big Footer'))
 
-<footer class="border-t border-gray-100 pt-10 pb-8 dark:border-gray-800 dark:bg-gray-900/80">
+<footer class="border-t border-gray-100 pt-10 pb-8 dark:border-gray-800/80">
     <div>
         <div class="container space-y-8">
             <div class="grid grid-cols-8 gap-6 md:gap-0">
@@ -13,7 +13,7 @@
                                     href="/"
                                     class="flex items-center"
                             >
-                                Your Company
+                                Lngzl.
                             </a>
                             <a href="/" class="mt-2 inline-block text-sm">
                                 {{ $footer->text('subtitle')->min(1)->max(30) }}
