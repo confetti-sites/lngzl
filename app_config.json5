@@ -21,7 +21,7 @@
           // Do not change the name 'view' since it is connected to the view.Dockerfile
           name: 'view',
           hosts: [
-            'lngzl.confetti-cms.localhost',
+            'lngzl.confetti-cms.com',
           ],
           paths: [
             '/',
@@ -30,7 +30,7 @@
         // For all api services
         {
           hosts: [
-            'lngzl.confetti-cms.localhost',
+            'lngzl.confetti-cms.com',
           ],
           paths: [
             // Replace '__SERVICE__' with the name of the service.
